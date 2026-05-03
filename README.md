@@ -45,6 +45,6 @@ COPY --chown=1000:1000 --from=credentials \
 Provide the credentials for the above `docker build --secret id=steam,src="$(pwd)/config.vdf"  .`
 
 # Build this image
-```shellx
+```shell
 docker build -t left4devops/steamcmd .
 ```
